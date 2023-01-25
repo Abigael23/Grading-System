@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(47, 84, 121);
+            border-radius: 10px;
+            text-align: center;
+        }
+        input{
+            width: 220px;
+            height: 40px;
+            background-color: gainsboro;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            margin-top: 10px;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            background-color: rgb(142, 106, 22);
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <br><p>BOLD-Grading System</p>
+        <input type="text" name="" id="grade">
+        <button onclick="activate()" id="">Click</button> 
+    </main>
+</body>
+</html>
+
+<script>
+    let input = document.getElementById("grade")
+    function activate(){
+        if((input.value) <= 39){
+            alert("failed")
+        }else if((input.value) <= 49){
+            alert("passed")
+        }else if((input.value) >= 50){
+            alert("good")
+        }else if((input.value) >= 60){
+            alert("very good")
+        }else if ((input.value) >= 70){
+            alert("Distinction")
+        }
+
+        
+    }
+</script>
