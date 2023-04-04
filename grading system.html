@@ -6,43 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        main {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: ghostwhite;
-            height: 100vh;
-        }
-
-        .bigcont {
-            width: 350px;
-            height: 320px;
-            background-color: rgb(47, 84, 121);
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        input {
-            width: 220px;
-            height: 40px;
-            background-color: gainsboro;
-            border-radius: 5px;
-            outline: none;
-            border: none;
-            margin-top: 10px;
-        }
-
-        button {
-            width: 150px;
-            height: 40px;
-            background-color: rgb(142, 106, 22);
-            border-radius: 5px;
-            outline: none;
-            border: none;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="C:\Users\USER\Desktop\Javascript\GRADING SYS\grading system.css">
 </head>
 
 <body>
@@ -52,25 +16,9 @@
             <h1>BOLD-GRADING SYSTEM</h1>
             <input type="text" name="" id="grade">
             <button onclick="activate()" id="">Click</button>
+            <h1 id="show"></h1>
         </div>
     </main>
 </body>
-
+<script src="C:\Users\USER\Desktop\Javascript\GRADING SYS\grading system.js"></script>
 </html>
-
-<script>
-    let input = document.getElementById("grade")
-    function activate() {
-        if ((input.value) <= 39) {
-            alert("Failed")
-        } else if ((input.value) <= 49) {
-            alert("Passed")
-        } else if ((input.value) >= 50 && (input.value) <= 59) {
-            alert("Good")
-        } else if ((input.value) >= 60 && (input.value) <= 69) {
-            alert("Very Good")
-        } else if ((input.value) >= 70 && (input.value) <= 100) {
-            alert("Distinction")
-        }
-    }
-</script>

@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ghostwhite;
+    height: 100vh;
+}
+
+.bigcont {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(47, 84, 121);
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(142, 106, 22);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    color: #fff;
+}
